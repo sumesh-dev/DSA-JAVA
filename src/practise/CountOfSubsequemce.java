@@ -7,8 +7,9 @@ public class CountOfSubsequemce {
 		// TODO Auto-generated method stub
 		String str = "abc";
 		printanswer(str,"");
-		Integer.
+//		Integer.
 //		System.out.println(count);
+//		System.out.println(hey);
 		System.out.println(answerCount(str, str));
 	}
 	public static void printanswer(String ques, String ans) {

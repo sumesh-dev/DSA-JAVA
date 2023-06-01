@@ -3,6 +3,7 @@ package Lec13;
 
 public class First_Bad_Version_Leetcode {
 	public static void main(String[] args) {
+		int arr[]=new int[5];
 		int low = 1;
 		int high = arr.length - 1;
 		int ans = 0;
@@ -15,7 +16,7 @@ public class First_Bad_Version_Leetcode {
 				low = mid + 1;
 			}
 		}
-		return ans;
+//		return ans;
 	}
 
 	public static boolean isBadVersion(int v) {
